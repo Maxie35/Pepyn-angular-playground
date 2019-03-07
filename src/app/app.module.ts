@@ -7,6 +7,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { MaxoecomponentComponent } from './maxoecomponent/maxoecomponent.component';
 import { HomepageComponent } from './homepage/homepage.component';
 import { PeppiecomponentComponent } from './peppiecomponent/peppiecomponent.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { PeppiecomponentComponent } from './peppiecomponent/peppiecomponent.comp
     NavbarComponent,
     MaxoecomponentComponent,
     HomepageComponent,
-    PeppiecomponentComponent
+    PeppiecomponentComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
